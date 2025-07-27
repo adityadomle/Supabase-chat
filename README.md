@@ -1,12 +1,37 @@
-# React + Vite
+# SupaChat ❤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SupaChat** is a real-time chat application built using **React** and **Supabase**. It features Google OAuth authentication, live messaging via Supabase Realtime Channels, and online user presence tracking. The UI is designed with Tailwind CSS and fully responsive across devices.
 
-Currently, two official plugins are available:
+This project demonstrates modern client-server communication with a serverless backend and minimal configuration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Google OAuth sign-in via Supabase Auth
+- Real-time chat powered by Supabase Channels
+- Presence tracking to display active users
+- Responsive, clean UI with Tailwind CSS
+- Message timestamps and user avatars
+
+---
+
+## Tech Stack
+
+| Layer       | Technology        |
+|-------------|--------------------|
+| Frontend    | React (Vite)       |
+| Styling     | Tailwind CSS       |
+| Backend     | Supabase Realtime  |
+| Auth        | Supabase OAuth (Google) |
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/adityadomle/Supachat.git
+cd Supachat
+npm install
