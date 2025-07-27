@@ -1,16 +1,13 @@
-import { useState } from "react";
-import SearchBar from "./components/SearchBar";
-import WeatherCard from "./components/WeatherCard";
-import "./index.css";
+import React from 'react';
 
-export default function App() {
-  const [weatherData, setWeatherData] = useState(null);
-
+function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-200 via-blue-100 to-purple-300 p-4 text-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">☀️ ClimaX</h1>
-      <SearchBar setWeatherData={setWeatherData} />
-      {weatherData && <WeatherCard data={weatherData} />}
+    <div className="flex items-center justify-center h-screen bg-gradient-to-r from-pink-500 to-purple-500">
+      <h1 className="text-4xl font-bold text-white">
+        Tailwind is Working! 🚀
+      </h1>
     </div>
   );
 }
+
+export default App;
