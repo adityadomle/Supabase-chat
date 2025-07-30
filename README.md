@@ -1,4 +1,4 @@
-# SupaChat ❤️
+# Supabase Chat Application
 
 **SupaChat** is a real-time chat application built using **React** and **Supabase**. It features Google OAuth authentication, live messaging via Supabase Realtime Channels, and online user presence tracking. The UI is designed with Tailwind CSS and fully responsive across devices.
 
